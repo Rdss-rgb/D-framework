@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto 0;
+}
+.container{
+margin-top: 100px;
+background-color: aqua;
+border-radius: 10px;
+}
+.wrapper1{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.personal-data{
+width: 100%;
+}
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper2>label{
+   float: left;
+}
+.btn{
+    width: 30%;
+    margin: 10px;
+}
+@media (max-width:800px) {
+    .wrapper1{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:480px) {
+    .wrapper1{
+        flex-wrap: wrap;
+    }
+}

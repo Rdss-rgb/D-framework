@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" id="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <div class="nav-brand"><img src="images/logo.jpg" width="50" height="50">
+        <ul class="navbar-ul">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Intro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#code">Code</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#example">Examples</a>
+            </li>
+
+        </ul><i class="fa fa-sun-o" id="toggle-dark"></i>
+    </div>
+    <div class="container" id="container">
+        <center>
+            <p style="font-size:55px; font-weight: bolder;">Get started with D Framework</p>
+            <p style="font-size:25px; ">A Personalized CSS Framework</p>
+        </center>
+        <h4><label style="color:blue"><i class="fa fa-hashtag"></i></label> Quick Start</h4>
+        <p style="font-size:20px; font-weight: lighter;"> - - Get started by including D’s production-ready CSS and
+            JavaScript - -</p>
+        <h2 style="color:rgb(59, 156, 13);  -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black">CSS</h2>
+        <p style="font-style: italic;">&lt;link rel="stylesheet" href="style.css"&gt;<br>
+            &lt;link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com
+            /ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p><br>
+        <h2 style="color:rgb(228, 228, 62);  -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;">JS</h2>
+        <p style="font-style: italic;">&lt;script src="app.js">&lt;/script&gt;</p><br>
+        <hr>
+        <div class="first">
+            <h1><label style="color:rgb(68, 160, 236)"><i class="fa fa-bookmark"> </i> </label> Typography</h1> <br>
+            <p>Geometric sans serif typefaces have been a popular design tool ever since these actors took to the
+                world’s stage. <label style="color:red">Poppins</label> is one of the new comers to this long tradition.
+                With support for the Devanagari and Latin writing systems, it is an internationalist take on the genre
+                The typography base is <label style="color:red">Poppins</label> served by Google Fonts, set at Light
+                300. Other type basics like headings, anchors, strong, emphasis, and underline are all obviously
+                included.</p>
+        </div>
+        <h1 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Headings </h1>
+        <p>All HTML headings, <label style="color:red">&lt;h1&gt;</label> through <label
+                style="color:red">&lt;h6&gt;</label>, are available.</p>
+        <div class="example1">
+            <div class="box1" >
+                <h6 data-aos="fade-left" data-aos-offset="320"
+                data-aos-easing="ease-in-sine" style="font-weight:900;">
+
+                    &lt;!-- Standard Headings --&gt;<br>
+
+                    &lt;h1&gt; Heading &lt;/h1&gt;<br>
+                    &lt;h2&gt; Heading &lt;/h2&gt;<br>
+                    &lt;h3&gt; Heading &lt;/h3&gt;<br>
+                    &lt;h4&gt; Heading &lt;/h4&gt;<br>
+                    &lt;h5&gt; Heading &lt;/h5&gt;<br>
+                    &lt;h6&gt; Heading &lt;/h6&gt;<br>
+                    &lt;!-- Base type size --&gt;<br>
+
+                    &lt;p&gt; Lorem ipsum dolor sit, amet <br>
+                    consectetur adipisicing elit. &lt;/p&gt;<br>
+
+                    !-- Other styled text tags --&gt;<br>
+                    &lt;strong>Bolded&lt;/strong&gt;<br>
+                    &lt;em>Italicized&lt;/em&gt;<br>
+                    &lt;a>Colored&lt;/a&gt;<br>
+                    &lt;u>Underlined&lt;/u&gt;<br><br>
+
+                </h6>
+            </div>
+            <div data-aos="fade-right" data-aos-offset="320"
+            data-aos-easing="ease-in-sine" class="box2" style="color:rgb(68, 160, 236);">
+                <h1>h1. Heading</h1>
+                <h2>h2. Heading</h2>
+                <h3>h3. Heading</h3>
+                <h4>h4. Heading</h4>
+                <h5>h5. Heading</h5>
+                <h6 id="code">h6. Heading</h6>
+            </div>
+        </div>
+        <hr>
+       
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"> <label
+                style="color:rgb(16, 202, 187)"><i class="fa fa-asterisk"></i></label> Buttons</h2>
+       
+        <p> D Framework has a base<label style="color:red"> .btn </label> class that sets up basic styles such as
+            padding and border radius. By default, <label style="color:red"> .btn </label> controls have a border none
+            and background color, and lack any explicit focus and hover styles. This also include different buttons
+            variant like the example buttons below.</p>
+        <div class="example2">
+            <button class="btn btn-primary"data-aos="fade-left" data-aos-offset="320"
+            data-aos-easing="ease-in-sine">Primary</button>
+            <button class="btn btn-secondary"data-aos="fade-left" data-aos-offset="340"
+            data-aos-easing="ease-in-sine">Secondary</button>
+            <button class="btn btn-tertiary"data-aos="fade-left" data-aos-offset="360"
+            data-aos-easing="ease-in-sine">Tertiary</button>
+            <button class="btn btn-success"data-aos="fade-left" data-aos-offset="380"
+            data-aos-easing="ease-in-sine">Success</button>
+            <button class="btn btn-danger"data-aos="fade-left" data-aos-offset="400"
+            data-aos-easing="ease-in-sine">Danger</button>
+            <button class="btn btn-warning"data-aos="fade-left" data-aos-offset="420"
+            data-aos-easing="ease-in-sine">Warning</button>
+            <button class="btn btn-info"data-aos="fade-left" data-aos-offset="440"
+            data-aos-easing="ease-in-sine">Info</button>
+            <button class="btn btn-light"data-aos="fade-left" data-aos-offset="460"
+            data-aos-easing="ease-in-sine">Light</button>
+            <button class="btn btn-dark"data-aos="fade-left" data-aos-offset="480"
+            data-aos-easing="ease-in-sine">Dark</button>
+
+        </div>
+      
+        <h6 style="display: flex; justify-content: center; color:rgb(16, 202, 187)">
+            &lt;!-- Variats of Buttons --&gt;<br><br>
+
+            &lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;<br>
+            &lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;<br>
+            &lt;button class="btn btn-tertiary"&gt;Tertiary&lt;/button&gt;<br>
+            &lt;button class="btn btn-success"&gt;Success&lt;/button&gt;<br>
+            &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;<br>
+            &lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;<br>
+            &lt;button class="btn btn-info"&gt;Info&lt;/button&gt;<br>
+            &lt;button class="btn btn-light"&gt;Light&lt;/button&gt;<br>
+            &lt;button class="btn btn-dark"&gt;Dark&lt;/button&gt;<br>
+        </h6>
+     
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><label style="color:#28D29C"><i
+                    class="fa fa-ellipsis-v"></i></label> Outline</h2><br>
+        <p>For you to generate the outline button you just need to replace the default modifier classes with the <label
+                style="color:red"> btn-outline-* </label> such as the given example below. </p>
+        <div class="example3">
+
+            <button class="btn btn-outline-primary" data-aos="fade-left" data-aos-offset="320"
+            data-aos-easing="ease-in-sine">Primary</button>
+            <button class="btn btn-outline-secondary"data-aos="fade-left" data-aos-offset="340"
+            data-aos-easing="ease-in-sine">Secondary</button>
+            <button class="btn btn-outline-tertiary"data-aos="fade-left" data-aos-offset="360"
+            data-aos-easing="ease-in-sine">Tertiary</button>
+            <button class="btn btn-outline-success"data-aos="fade-left" data-aos-offset="380"
+            data-aos-easing="ease-in-sine">Success</button>
+            <button class="btn btn-outline-danger"data-aos="fade-left" data-aos-offset="400"
+            data-aos-easing="ease-in-sine">Danger</button>
+            <button class="btn btn-outline-warning"data-aos="fade-left" data-aos-offset="420"
+            data-aos-easing="ease-in-sine">Warning</button>
+            <button class="btn btn-outline-info"data-aos="fade-left" data-aos-offset="440"
+            data-aos-easing="ease-in-sine">Info</button>
+            <button class="btn btn-outline-light"data-aos="fade-left" data-aos-offset="460"
+            data-aos-easing="ease-in-sine">Light</button>
+            <button class="btn btn-outline-dark"data-aos="fade-left" data-aos-offset="480"
+            data-aos-easing="ease-in-sine">Dark</button><br><br>
+
+        </div>
+   
+        <h6 style="display: flex; justify-content: center;color:#28D29C;">
+            &nbsp;&nbsp;&lt;!-- Variats of Outline Buttons --&gt;<br><br>
+
+            &lt;button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-tertiary"&gt;Tertiary&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-success"&gt;Success&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-warning"&gt;Warning&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-info"&gt;Info&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-light"&gt;Light&lt;/button&gt;<br>
+            &lt;button class="btn btn-outline-dark"&gt;Dark&lt;/button&gt;<br>
+        </h6> <br>
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><label
+                style="color:rgb(116, 116, 224)"><i class="fa fa-asterisk"></i></label> Sizes </h2>
+        <br>
+        <p>There are two major sizes of button in D framework which is large/small you can call the syntax by naming the
+            class with <label style="color:red">.btn-lg</label> and <label style="color:red">.btn-sm </label>.</p>
+        <div class="example4">
+            <div>
+                <button data-aos="fade-down-right" class="btn btn-primary btn-lg">Large Button</button>
+                <button data-aos="fade-down-left" class="btn btn-secondary btn-lg">Large Button</button>
+                <button data-aos="fade-down-right" class="btn btn-primary btn-sm">Small Button</button>
+                <button data-aos="fade-down-left" class="btn btn-secondary btn-sm">Small Button</button><br>
+            </div>
+            <div>
+                <h6 style="display: flex; justify-content: center;color:rgb(116, 116, 224)">
+                    &nbsp;&nbsp;&lt;!-- Buttons Sizes --&gt;<br><br>
+
+                    &lt;button class="btn btn-primary btn-lg"&gt;Large Button&lt;/button&gt;<br>
+                    &lt;button class="btn btn-secondary btn-lg"&gt;Large Button&lt;/button&gt;<br>
+                    &lt;button class="btn btn-primary btn-sm"&gt;Small Button&lt;/button&gt;<br>
+                    &lt;button class="btn btn-primary btn-sm"&gt;Small Button&lt;/button&gt;<br>
+
+                </h6>
+            </div>
+        </div>
+      
+        <hr>
+    
+        <h2 style="text-align: center;" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine"><label style=" color:rgba(101, 101, 102, 0.774)"><i
+                class="fa fa-hashtag"></i></label> Modal</h2>
+        <p style="text-align: center;">JavaScript modal plugin to add dialogs to your site for lightboxes, user
+            notifications, or completely custom content.</p>
+        <div class="example1">
+            <button data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" class="btn btn-primary"
+                id="openmdl">Launch modal</button>
+            <button data-aos="fade-up" class="btn btn-primary" id="topmdl">Top modal</button>
+            <button data-aos="fade-left" class="btn btn-primary" id="leftmdl">Left side modal</button>
+            <button data-aos="fade-right" class="btn btn-primary" id="rightmdl">Rigth side modal</button>
+            <button data-aos="fade-down" class="btn btn-primary" id="bottommdl">Bottom modal</button>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="modal-header primary">
+                    <h4>This is modal header</h4>
+                    <span class="closed">&times;</span>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+                    molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+                    possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero
+                    fugiat harum provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur
+                    distinctio, magnam velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod.
+                    Quibusdam praesentium doloribus, laborum officiis sed at earum commodi debitis excepturi </p>
+            </div>
+        </div>
+
+
+        <div class="modal" id="modaltop">
+            <div class="modal-content-top-modal">
+                <div class="modal-header primary">
+                    <h4>This is Top modal header</h4>
+                    <span class="closed">&times;</span>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+                    molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+                    possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero
+                    fugiat harum provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur
+                    distinctio, magnam velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod.
+                    Quibusdam praesentium doloribus, laborum officiis sed at earum commodi debitis excepturi </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modalleft">
+            <div class="modal-content-left-modal">
+                <div class="modal-header primary">
+                    <h4>This is Left modal header</h4>
+                    <span class="closed">&times;</span>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+                    molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+                    possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero
+                    fugiat harum provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur
+                    distinctio, magnam velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod.
+                    Quibusdam praesentium doloribus, laborum officiis sed at earum commodi debitis excepturi </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modalright">
+            <div class="modal-content-right-modal">
+                <div class="modal-header primary">
+                    <h4>This is Right modal header</h4>
+                    <span class="closed">&times;</span>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+                    molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+                    possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero
+                    fugiat harum provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur
+                    distinctio, magnam velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod.
+                    Quibusdam praesentium doloribus, laborum officiis sed at earum commodi debitis excepturi </p>
+            </div>
+        </div>
+
+        <div class="modal" id="modalbottom">
+            <div class="modal-content-bottom-modal">
+                <div class="modal-header primary">
+                    <h4>This is Bottom modal header</h4>
+                    <span class="closed">&times;</span>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+                    molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+                    possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero
+                    fugiat harum provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur
+                    distinctio, magnam velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod.
+                    Quibusdam praesentium doloribus, laborum officiis sed at earum commodi debitis excepturi </p>
+            </div>
+        </div>
+
+
+        <h6 style="display: flex; justify-content: center;">
+            &nbsp;&nbsp;&lt;!-- Fade animation modal --&gt;<br>
+            &lt;button class="btn btn-primary" id="openmdl"&gt;Launch modal&lt;/button&gt;<br>
+            &lt;div class="modal" id="modal"&gt;<br>
+            &lt;div class="modal-content"&gt;<br>
+            &lt;div class="modal-header primary"&gt;<br>
+            &lt;h4&gt;This is modal header&lt;/h4&gt;<br>
+            &lt;span class="closed"&gt;&times;&lt;/span&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+            molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+            possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero fugiat harum
+            provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur distinctio, magnam
+            velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod. Quibusdam praesentium doloribus,
+            laborum officiis sed at earum commodi debitis excepturi &lt;/p&gt;
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+            <br><br>
+            &lt;button class="btn btn-primary" id="topmdl"&gt;Top modal&lt;/button&gt;<br>
+            &lt;div class="modal" id="modaltop"&gt;<br>
+            &lt;div class="modal-content-top-modal"&gt;<br>
+            &lt;div class="modal-header primary"&gt;<br>
+            &lt;h4&gt;This is Top modal header&lt;/h4&gt;<br>
+            &lt;span class="closed"&gt;&times;&lt;/span&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+            molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+            possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero fugiat harum
+            provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur distinctio, magnam
+            velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod. Quibusdam praesentium doloribus,
+            laborum officiis sed at earum commodi debitis excepturi &lt;/p&gt;
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;button class="btn btn-primary" id="leftmdl"&gt;Left side modal&lt;/button&gt;<br>
+            &lt;div class="modal" id="modalleft"&gt;<br>
+            &lt;div class="modal-content-left-modal"&gt;<br>
+            &lt;div class="modal-header primary"&gt;<br>
+            &lt;h4&gt;This is Left modal header&lt;/h4&gt;<br>
+            &lt;span class="closed"&gt;&times;&lt;/span&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+            molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+            possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero fugiat harum
+            provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur distinctio, magnam
+            velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod. Quibusdam praesentium doloribus,
+            laborum officiis sed at earum commodi debitis excepturi &lt;/p&gt;
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;button class="btn btn-primary" id="rightmdl"&gt;Rigth side modal&lt;/button&gt;<br>
+            &lt;div class="modal" id="modalright"&gt;<br>
+            &lt;div class="modal-content-right-modal"&gt;<br>
+            &lt;div class="modal-header primary"&gt;<br>
+            &lt;h4&gt;This is Right modal header&lt;/h4&gt;<br>
+            &lt;span class="closed"&gt;&times;&lt;/span&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+            molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+            possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero fugiat harum
+            provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur distinctio, magnam
+            velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod. Quibusdam praesentium doloribus,
+            laborum officiis sed at earum commodi debitis excepturi &lt;/p&gt;
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;button class="btn btn-primary" id="bottommdl"&gt;Bottom modal&lt;/button&gt;<br>
+            &lt;div class="modal" id="modalbottom"&gt;<br>
+            &lt;div class="modal-content-bottom-modal"&gt;<br>
+            &lt;div class="modal-header primary"&gt;<br>
+            &lt;h4&gt;This is Bottom modal header&lt;/h4&gt;<br>
+            &lt;span class="closed"&gt;&times;&lt;/span&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, exercitationem! lore Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Amet exercitationem, accusamus consectetur reprehenderit
+            molestias laudantium veniam magni beatae dolore explicabo commodi fuga incidunt ut illo voluptatibus
+            possimus iure, cum culpa nesciunt officia aliquam? Earum tenetur cumque ratione laudantium vero fugiat harum
+            provident, magni cupiditate enim, dolorem nemo optio rem similique expedita pariatur distinctio, magnam
+            velit incidunt repellat ipsam. Et cum in voluptatibus, debitis libero quod. Quibusdam praesentium doloribus,
+            laborum officiis sed at earum commodi debitis excepturi &lt;/p&gt;
+            &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+        </h6>
+
+        <hr>
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><label style="color:blue"><i
+                    class="fa fa-hashtag"></i></label> Toast</h2>
+        <p> Click the different button below to show a toast (positioned with our utilities in the <label
+                style="color:red">upper right corner</label>) that has been hidden by default.</p><br>
+        <div class="toast toast-success">
+            <div class="toast_content">
+                <i class="fa fa-check check"></i>
+                <div class="message">
+                    <span class="txt txt-1">Success</span>
+                    <span class="txt txt-2">This is a success Toast message</span>
+                </div>
+            </div>
+            <i class="fa fa-close close"></i>
+            <div class="progress" id="progress"></div>
+        </div>
+
+
+        <div class="toast toast-danger">
+            <div class="toast_content">
+                <i class="fa fa-trash trash"></i>
+                <div class="message">
+                    <span class="txt txt-1">Danger</span>
+                    <span class="txt txt-2">This is a danger Toast message</span>
+                </div>
+            </div>
+            <i class="fa fa-close close"></i>
+            <div class="progress1" id="progress"></div>
+        </div>
+
+
+        <div class="toast toast-warning">
+            <div class="toast_content">
+                <i class="fa fa-warning warning"></i>
+                <div class="message">
+                    <span class="txt txt-1">Warning</span>
+                    <span class="txt txt-2">This is a warning Toast message</span>
+                </div>
+            </div>
+            <i class="fa fa-close close"></i>
+            <div class="progress2" id="progress"></div>
+        </div>
+
+
+        <div class="toast toast-info">
+            <div class="toast_content">
+                <i class="fa fa-info info"></i>
+                <div class="message">
+                    <span class="txt txt-1">Info</span>
+                    <span class="txt txt-2">This is a info Toast message</span>
+                </div>
+            </div>
+            <i class="fa fa-close close"></i>
+            <div class="progress3" id="progress"></div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+
+            <div class="example3">
+                <button class="btn btn-success" id="toast-success">Launch Success toast</button>
+                <button class="btn btn-danger" id="toast-danger">Launch Danger toast</button>
+                <button class="btn btn-warning" id="toast-warning">Launch Warning toast</button>
+                <button class="btn btn-info" id="toast-info">Launch Info toast</button>
+            </div>
+
+
+        </div>
+
+
+        <div class="example5">
+
+            <div>
+                <h6><br><label style="color:var(--success)">&lt;!-- Success Toast --&gt; <br> <br>&lt;button class="btn
+                        btn-success" id="toast-success">Launch Success toast&lt;/button&gt; <br><br>
+                        &lt;div class="toast toast-success"&gt;<br>
+                        &lt;div class="toast_content"&gt;<br>
+                        &lt;i class="fa fa-check check"&gt;&lt;/i&gt;<br>
+                        &lt;div class="message"&gt;<br>
+                        &lt;span class="txt txt-1"&gt;Success&lt;/span&gt;<br>
+                        &lt;span class="txt txt-2"&gt;This is a success Toast message&lt;/span&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;i class="fa fa-close close"&gt;&lt;/i&gt;<br>
+                        &lt;div class="progress" id="progress"&gt;&lt;/div&gt;<br>
+                        &lt;/div&gt; </label><br><br>
+
+                    <label style="color:var(--danger)">&lt;!-- Danger Toast --&gt; <br> <br>&lt;button class="btn
+                        btn-danger" id="toast-danger">Launch Danger toast&lt;/button&gt; <br><br>
+                        &lt;div class="toast toast-danger"&gt;<br>
+                        &lt;div class="toast_content"&gt;<br>
+                        &lt;i class="fa fa-trash trash"&gt;&lt;/i&gt;<br>
+                        &lt;div class="message"&gt;<br>
+                        &lt;span class="txt txt-1"&gt;Danger&lt;/span&gt;<br>
+                        &lt;span class="txt txt-2"&gt;This is a danger Toast message&lt;/span&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;i class="fa fa-close close"&gt;&lt;/i&gt;<br>
+                        &lt;div class="progress1" id="progress"&gt;&lt;/div&gt;<br>
+                        &lt;/div&gt;</label> <br> <br>
+                </h6>
+            </div>
+            <div>
+                <h6><label style="color:rgb(211, 148, 13)">&lt;!-- Warning Toast --&gt;<br> <br>&lt;button class="btn
+                        btn-warning" id="toast-warning">Launch Warning toast&lt;/button&gt; <br><br>
+                        &lt;div class="toast toast-warning"&gt;<br>
+                        &lt;div class="toast_content"&gt;<br>
+                        &lt;i class="fa fa-warning warning"&gt;&lt;/i&gt;<br>
+                        &lt;div class="message"&gt;<br>
+                        &lt;span class="txt txt-1"&gt;Warning&lt;/span&gt;<br>
+                        &lt;span class="txt txt-2"&gt;This is a warning Toast message&lt;/span&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;i class="fa fa-close close"&gt;&lt;/i&gt;<br>
+                        &lt;div class="progress2" id="progress"&gt;&lt;/div&gt;<br>
+                        &lt;/div&gt;</label> <br> <br>
+
+                    <label style="color:var(--info)">&lt;!-- Info Toast --&gt; <br> <br>&lt;button class="btn btn-info"
+                        id="toast-info">Launch Info toast&lt;/button&gt; <br><br>
+                        &lt;div class="toast toast-info"&gt;<br>
+                        &lt;div class="toast_content"&gt;<br>
+                        &lt;i class="fa fa-info info"&gt;&lt;/i&gt;<br>
+                        &lt;div class="message"&gt;<br>
+                        &lt;span class="txt txt-1"&gt;Info&lt;/span&gt;<br>
+                        &lt;span class="txt txt-2"&gt;This is a info Toast message&lt;/span&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;/div&gt;<br>
+                        &lt;i class="fa fa-close close"&gt;&lt;/i&gt;<br>
+                        &lt;div class="progress3" id="progress"&gt;&lt;/div&gt;<br>
+                        &lt;/div&gt; </label>
+                </h6>
+            </div>
+        </div>
+    
+        <hr>
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><i class="fa fa-square-o"
+                style="color:rgb(177, 118, 224)"></i> Form Control</h2>
+        <p>Give textual form controls like <label style="color:red">&lt;input&gt;</label> and <label
+                style="color:red">&lt;textarea&gt;</label> an upgrade with custom styles, sizing, focus states, and
+            more.</p>
+
+
+        <label for="fname" class="form-label">Firstname:</label>
+        <input type="text" name="fname" id="fname" class="form-control" placeholder="Firstname">
+        <label for="lname" class="form-label">Lastname:</label>
+        <input type="text" name="lname" id="lname" class="form-control" placeholder="Lastname">
+
+        <label for="exampleFormControlTextarea1" class="form-label">Example Textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+        <br>
+        <input type="button" value="Submit" class="btn btn-success form-control">
+
+        <h6 style="display: flex; justify-content: center;color:rgb(177, 118, 224)">
+            &nbsp;&nbsp;&lt;!-- Form Control --&gt;<br><br>
+
+            &lt;label for="fname" class="form-label"&gt;Firstname:&lt;/label&gt;<br>
+            &lt;input type="text" name="fname" id="fname" class="form-control" placeholder="Firstname"&gt;<br>
+            &lt;label for="lname" class="form-label"&gt;Lastname:&lt;/label&gt;<br>
+            &lt;input type="text" name="lname" id="lname" class="form-control" placeholder="Lastname"&gt;<br>
+            &lt;label for="exampleFormControlTextarea1" class="form-label"&gt;Example Textarea&lt;/label&gt;<br>
+            &lt;textarea class="form-control" id="exampleFormControlTextarea1"&gt;&lt;textarea&gt;<br>
+        </h6>
+
+
+
+        <h3>Select</h3>
+        <p>Custom <label style="color:red">&lt;select&gt;</label> menus need only a custom class, <label
+                style="color:red">.form-select</label> to trigger the custom styles. Custom styles are limited to the
+            <label style="color:red">&lt;select&gt;</label> initial appearance.
+        </p>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <h6 style="display: flex; justify-content: center;color:rgb(177, 118, 224)">
+            &nbsp;&nbsp;&lt;!-- Select Form --&gt;<br><br>
+            &lt;select class="form-select" aria-label="Default select example"&gt;<br>
+            &lt;option selected&gt;Open this select menu&lt;/option&gt;<br>
+            &lt;option value="1"&gt;One&lt;/option&gt;<br>
+            &lt;option value="2"&gt;Two&lt;/option&gt;<br>
+            &lt;option value="3"&gt;Three&lt;/option&gt;<br>
+            &lt;/select&gt;
+        </h6>
+     
+        <hr>
+        <h2><i class="fa fa-sun-o"></i>Light / <i class="fa fa-moon-o"></i>Dark</h2>
+ 
+        <div class="light"
+            style="display: flex;justify-content: center; align-items: center; width: 100%; height: 300px;">
+            <p>Light-Additional theme option for less contrasting colors.</p>
+        </div>
+        <br>
+        <div class="dark" id="example"
+            style="display: flex; justify-content: center; align-items: center; width: 100%; height: 300px;">
+            <p>Dark — Additional theme option for higher contrasting colors.</p>
+        </div>
+    
+        <hr>
+        <h3> Examples</h3>
+        <div class="Example_container">
+            <div class="example_left"><img src="images/example.png" height="300px" width="100%"
+                    id="myimg1"></div>
+            <div class="example_right">More examples will be added to help anyone get started or more familiar with how
+                the D Framework works. The real goal is to build a personalized Framework using only HTML, CSS and
+                JavaScript </div>
+        </div>
+
+        <div class="Example_container">
+
+            <div class="example_right">More examples will be added to help anyone get started or more familiar with how
+                the D Framework works. The real goal is to build a personalized Framework using only HTML, CSS and
+                JavaScript </div>
+            <div class="example_left"><img src="images/dark.png" height="300px" width="100%"
+                    id="myimg"></div>
+            <div class="imgmodal">
+                <div class="headermodal">
+
+                </div>
+                <img class="bodymodal" id="bodymodal">
+
+                </img>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+</html>
